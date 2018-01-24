@@ -1,11 +1,10 @@
 # Define display_board that accepts a board and prints
 # out the current state.
-xboard = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-oboard = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-def display_board(xboard)
-  puts " #{xboard[0]} | #{xboard[1]} | #{xboard[2]} "
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+def display_board(board)
+  puts " #{board[0]} | #{board[1]} | #{board[2]} "
   puts "-----------"
-  puts " #{xboard[3]} | #{xboard[4]} | #{xboard[5]} "
+  puts " #{board[3]} | #{board[4]} | #{board[5]} "
   puts "-----------"
-  puts " #{xboard[6]} | #{xboard[7]} | #{xboard[8]} "
+  puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
