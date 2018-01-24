@@ -3,9 +3,9 @@
 xboard = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 oboard = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 def display_board(xboard,oboard)
-  puts " #{xboard[0]} | #{xboard[0]} | #{xboard[0]} "
+  puts " #{xboard[0]} | #{xboard[1]} | #{xboard[2]} "
   puts "-----------"
-  puts " #{xboard[0]} | #{xboard[0]} | #{xboard[0]} "
+  puts " #{xboard[3]} | #{xboard[4]} | #{xboard[5]} "
   puts "-----------"
-  puts " #{xboard[0]} | #{xboard[0]} | #{xboard[0]} "
+  puts " #{xboard[6]} | #{xboard[7]} | #{xboard[8]} "
 end
